@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 14px;
+    
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #0070c9;
+    font-size: 18px;
+    cursor: pointer;
+}
+span {
+    font-size: 16px;
+    border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#datepicker1{
+    text-align: center;
+}
+
+#datepicker2{
+    text-align: center;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th {
+    padding: 8px;
+    text-align: center;
+    color: #8e8e93;
+  }
+  
+
+  .table td {
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .table td:not(.other-month) {
+    background-color: #ffffff;
+  }
+  
+  .table td.other-month {
+    color: #c7c7cc;
+  }
+  
+  .table td:hover {
+    background-color: #f1f1f6;
+  }
